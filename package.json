@@ -1,0 +1,24 @@
+{
+  "name": "ps5-stock-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petter Lysne",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.5.0",
+    "opn": "^6.0.0",
+    "puppeteer": "^8.0.0"
+  },
+  "prettier": {
+    "printWidth": 150,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "none"
+  }
+}
